@@ -1,7 +1,7 @@
 import tkinter as tk
 
 window = tk.Tk()
-window.geometry("700x500")
+window.geometry("400x420")
 window.title("Fortnite")
 
 button1 = tk.Button(
@@ -67,43 +67,50 @@ button9 = tk.Button(
     width=10,
     height=5,
 )
-button10 = tk.Button(
+button0 = tk.Button(
     text="0",
     background="green",
     fg="purple",
     width=10,
     height=5,
 )
-button11 = tk.Button(
+buttonplus = tk.Button(
     text="+",
     background="green",
-    fg="pink",
+    fg="black",
     width=10,
     height=5,
 )
-button12 = tk.Button(
+buttonminus = tk.Button(
     text="-",
     background="green",
-    fg="pink",
+    fg="black",
     width=10,
     height=5,
 )
-button13 = tk.Button(
-    text="*",
+buttonkrat = tk.Button(
+    text="x",
     background="green",
-    fg="pink",
+    fg="black",
     width=10,
     height=5,
 )
-button14 = tk.Button(
-    text="/",
+buttondeleno = tk.Button(
+    text="÷",
     background="green",
-    fg="pink",
+    fg="black",
     width=10,
     height=5,
 )
-button15 = tk.Button(
+buttonrovnase = tk.Button(
     text="=",
+    background="green",
+    fg="red",
+    width=10,
+    height=5,
+)
+buttondelete = tk.Button(
+    text="C",
     background="green",
     fg="black",
     width=10,
@@ -119,12 +126,12 @@ button6.grid(row=1, column=2)
 button7.grid(row=2, column=0)
 button8.grid(row=2, column=1)
 button9.grid(row=2, column=2)
-button10.grid(row=3, column=1)
-button11.grid(row=0, column=3)
-button12.grid(row=1, column=3)
-button13.grid(row=2, column=3)
-button14.grid(row=3, column=3)
-button15.grid(row=4, column=3)
-
+button0.grid(row=3, column=1)
+buttonplus.grid(row=0, column=3)
+buttonminus.grid(row=1, column=3)
+buttonkrat.grid(row=2, column=3)
+buttondeleno.grid(row=3, column=3)
+buttonrovnase.grid(row=3, column=2)
+buttondelete.grid(row=3, column=0)
 
 window.mainloop()
