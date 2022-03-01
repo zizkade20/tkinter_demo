@@ -1,6 +1,9 @@
 import tkinter as tk
 
-#def calc_get():
+"""
+def get_calc_input():
+    calc_input = tk.Button.get()
+"""
 
 window = tk.Tk()
 window.geometry("400x420")
@@ -8,7 +11,6 @@ window.title("Fortnite")
 
 entry = tk.Entry(
     width=40,
-
 )
 
 button1 = tk.Button(
